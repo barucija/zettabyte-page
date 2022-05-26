@@ -108,7 +108,7 @@ p {
 
     background: linear-gradient(to bottom, rgba(224,105,142,1) 0%,rgba(109,191,223,1) 100%);
 
-    
+    min-height: 100vh;
   }
 
   .about-project {
