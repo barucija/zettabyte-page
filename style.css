@@ -66,14 +66,6 @@ p {
     margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 360px) {
-
-    .arrow-Expand-Page {
-        position: absolute;
-        bottom: 0;
-    }
-}
-
 .button-prijavi-se {
     width: 60%;
 }
