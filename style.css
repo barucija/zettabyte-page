@@ -30,6 +30,7 @@ p {
 
 .main-headline {   
     font-size: 48px;
+    font-weight: 600;
 }
 
 .secondary-headline {
@@ -54,6 +55,7 @@ p {
 
 .description-for-timer {
     text-transform: uppercase;
+    font-family: 'Comfortaa', cursive !important;
 }
 
 .arrow-Expand-Page {   
