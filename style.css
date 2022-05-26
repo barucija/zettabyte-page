@@ -66,6 +66,20 @@ p {
     margin-bottom: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+
+    .arrow-Expand-Page {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .arrow-Expand-Page {
+        margin-top: 40px;
+    }
+}
+
 .button-prijavi-se {
     width: 60%;
 }
