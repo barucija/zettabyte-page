@@ -62,9 +62,7 @@ p {
     color: #ffffff;
     fill: #ffffff;
     width: 50px;
-
-    position: absolute;
-    bottom: 0px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
