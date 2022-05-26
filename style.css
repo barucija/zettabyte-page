@@ -100,12 +100,23 @@ p {
     }
   }
 
+  .secondPagePart {
+    /* background: rgb(135,154,173);
+    background: linear-gradient(90deg, rgba(135,154,173,1) 0%, rgba(115,125,136,1) 100%); */
+    width: 100%;
+    padding: 20px 0;
+
+    background: linear-gradient(to bottom, rgba(224,105,142,1) 0%,rgba(109,191,223,1) 100%);
+
+    
+  }
+
   .about-project {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
 
   .faq-questions-headline {
