@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+     margin: 0 !important;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-part {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.logo-top {
+    /* width: 150px;
+    margin-bottom: 20px; */
+}
+
+.main-headline {   
+    font-size: 48px;
+}
+
+.secondary-headline {
+    font-size: 32px;
+}
+
+.counter-div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.counter-content {
+    margin: 0 5px;
+}
+
+.timer-for-registration {   
+    font-family: 'Comfortaa', cursive !important;
+    font-size: 34px;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.description-for-timer {
+    text-transform: uppercase;
+}
+
+.arrow-Expand-Page {   
+    color: #ffffff;
+    fill: #ffffff;
+    width: 50px;
+
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.button-prijavi-se {
+    width: 60%;
+}
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgba(224,105,142,1) 50%, rgba(109,191,223,1) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  .about-project {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .faq-questions-headline {
+      color: white;
+      font-size: 28px;
+      border-bottom: 0.2px #ffffff solid;
+      margin-bottom: 20px !important;
+  }
+
+    .about-project > .whole-cards {
+    width: 80vw;
+}
+
+     {
+    background-color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-bottom: none;
+    color: #222222 !important;
+    text-align: left;
+}
+
+    .about-project .whole-cards .card-header {
+    border: none;
+    border-bottom: none;
+}
+
+    .about-project .btn-link {
+    color: #222222 !important;
+    text-align: left;
+}
+
+    .about-project .btn-link:hover {
+    color: #222222 !important;
+    text-decoration: none;
+}
+
+    .about-project .btn-link:focus {
+    color: #222222 !important;
+    text-decoration: none;
+}
+
+.about-project .whole-cards .card .description-cards {
+    font-size: 14px;
+}
+

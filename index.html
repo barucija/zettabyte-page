@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZettaByte</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <div class="top-part">
+
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+
+
+            <object data="images/logoWhiteMixed.svg" class="logo-top"></object>
+            <p class="main-headline">ZEttaByte</p>
+            <p class="secondary-headline">Hackathon</p>
+
+            <div class="counter-div">
+
+                <div class="counter-content">
+                    <p id="timer-days" class="timer-for-registration"></p>
+                    <p id="descroptionTimerDays" class="description-for-timer"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-space" class="timer-for-registration"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-hours" class="timer-for-registration"></p>
+                    <p id="descroptionTimerHours" class="description-for-timer"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-space2" class="timer-for-registration"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-minutes" class="timer-for-registration"></p>
+                    <p id="descroptionTimerMinutes" class="description-for-timer"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-space3" class="timer-for-registration"></p>
+                </div>
+
+                <div class="counter-content">
+                    <p id="timer-seconds" class="timer-for-registration"></p>
+                    <p id="descroptionTimerSeconds" class="description-for-timer"></p>
+                </div>
+
+
+                <p id="demo"></p>
+            </div>
+            
+            <button type="button" class="btn btn-light button-prijavi-se" >Prijavi se</button>
+
+            <a href="#faq" style="display: flex; justify-content: center;">
+                <img src="images/arrowExpand.svg" alt="" width="40px" height="40px" class="arrow-Expand-Page">
+                <!-- <object data="images/arrowExpand.svg" class=""></object> -->
+            </a>
+            
+        </div>
+
+        <div class="about-project" id="faq">
+            
+             <p class="faq-questions-headline">FAQ</p>
+
+            <div id="accordion" class="whole-cards">
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Šta je ZEttaByte Hackathon?
+                        </button>
+                    </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body description-cards">
+                        Zettabyte Hackathon je takmičenje u programiranju namijenjeno srednjoškolcima, čiji su organizatori IT studenti i stipendisti BHFF (Bosnia & Herzegovina Futures Foundation). Koji je njegov cilj? Glavni zadaci Zettabyte-a jesu da omogući srednjoškolcima da praktično testiraju svoje znanje, da uvide pogodnosti IT-a, ojačaju svoju kreativnost, liderstvo i rad u timu, te da njihovo zalaganje nagradi. Kada i gdje se održava? Zettabyte je trodnevni događaj, koji se održava od 6.7. do 8.7.2022. godine u prostorijama Agencije ZEDA. Kako se prijaviti? Odgovor na ovo pitanje dolazi uskoro, a do tada okupite svoj tim i ostanite uz nas za daljnje upute.
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ko je podržao održavanje ZEttaByte Hackathona?
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body description-cards">
+                            Realizacija našeg projekta ne bi bila moguća bez naših sponzora: BH Futures Foudation, Blandus, Zenička razvojna agencija ZEDA, Agora, Sultan Drinks.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Šta je potrebno za prijavu na ZEttaByte Hackathon?
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body description-cards">
+                        Prijave su otvorene do 20.6.2022. s ograničenim brojem mjesta, stoga požurite! Radujemo se vašim prijavama i dolasku.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Do kada su otvorene prijave za ZEttaByte Hackathon?
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body description-cards">
+                        Da bi postali dio Zettabyte hackathon-a potrebno je: okupiti tim, izvršiti prijavu tima putem LINKA i naoružati se znatiželjom i dobrim raspoloženjem.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Gdje se održava ZEttaByte Hackathon?
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                      <div class="card-body description-cards">
+                        ZEttaByte Hackathon se održava u Zenici, u prostorijama agencije ZEDA (Zmaja od Bosne b.b. 72000 Zenica, BiH).
+                      </div>
+                    </div>
+                  </div>
+
+                  
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
