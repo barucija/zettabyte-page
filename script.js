@@ -18,7 +18,7 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="timer"
   document.getElementById("timer-days").innerHTML = days;
-  document.getElementById("descroptionTimerDays").innerHTML =  " dana";
+  document.getElementById("descroptionTimerDays").innerHTML =  " dani";
 
   document.getElementById("timer-space").innerHTML = " : ";
 
@@ -28,12 +28,12 @@ var x = setInterval(function() {
   document.getElementById("timer-space2").innerHTML = " : ";
 
   document.getElementById("timer-minutes").innerHTML = minutes;
-  document.getElementById("descroptionTimerMinutes").innerHTML =  " minuta";
+  document.getElementById("descroptionTimerMinutes").innerHTML =  " minute";
 
   document.getElementById("timer-space3").innerHTML = " : ";
 
   document.getElementById("timer-seconds").innerHTML = seconds;
-  document.getElementById("descroptionTimerSeconds").innerHTML =  " sekundi";
+  document.getElementById("descroptionTimerSeconds").innerHTML =  " sekunde";
   
   // If the count down is over, write some text 
   if (distance < 0) {
