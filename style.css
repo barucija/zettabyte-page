@@ -532,3 +532,13 @@ img.expandDescription {
         width: 85vw;
     }
 }
+
+.otvorenePrijaveUskoro{
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive !important;
+    border-top: 0.2px solid rgba(255,255,255,40%);
+    width: 55vw;
+    text-align: center;
+    padding-top: 20px;
+}
+}
