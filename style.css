@@ -579,3 +579,7 @@ img.expandDescription {
 #collapseFive{
     transition: all 0.4s ease;
 }
+
+.sultanDisplay{
+    display: none;
+}
