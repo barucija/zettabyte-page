@@ -559,3 +559,23 @@ img.expandDescription {
         width: 20vw;
     }
 }
+
+#collapseOne{
+    transition: all 0.4s ease;
+}
+
+#collapseTwo{
+    transition: all 0.4s ease;
+}
+
+#collapseThree{
+    transition: all 0.4s ease;
+}
+
+#collapseFour{
+    transition: all 0.4s ease;
+}
+
+#collapseFive{
+    transition: all 0.4s ease;
+}
