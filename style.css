@@ -419,6 +419,10 @@ img.expandDescription {
       margin: 0 5px;
   }
 
+  .socialMediaImages:first-child {
+    margin: 0 5px 0 0;
+}
+
   .fifthPagePart {
     width: 100%;
     padding: 5px 0 15px 0;
