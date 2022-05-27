@@ -209,6 +209,25 @@ p {
     }
 }
 
+.expandWithArrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+img.expandDescription.collapsed {
+    transform: rotate(180deg) !important;
+    transition: all 0.4s ease;
+}
+
+img.expandDescription {
+    transform: rotate(0deg) !important;
+    transition: all 0.4s ease;
+}
+
+
+
 .thirdPagePart {
     width: 100%;
     padding: 70px 0;
