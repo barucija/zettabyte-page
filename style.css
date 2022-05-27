@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -26,6 +27,29 @@ p {
 .logo-top {
     /* width: 150px;
     margin-bottom: 20px; */
+
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.cirlceLogo{
+    animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+
+    .logo-top {
+        width: 280px;
+    }
 }
 
 .main-headline {   
@@ -64,6 +88,9 @@ p {
     width: 50px;
     margin-top: 70px;
     margin-bottom: 30px;
+
+    position: absolute;
+    bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
