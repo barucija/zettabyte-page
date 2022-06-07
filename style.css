@@ -583,3 +583,15 @@ img.expandDescription {
 .sultanDisplay{
     display: none;
 }
+
+.linkRegister{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkRegister:hover{
+    text-decoration: none;
+    color: #222222;
+}

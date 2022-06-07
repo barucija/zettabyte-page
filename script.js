@@ -42,4 +42,5 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-document.getElementById("prijaviSeNaHackathon").disabled = true;
+
+// document.getElementById("prijaviSeNaHackathon").disabled = true;
