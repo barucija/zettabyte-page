@@ -589,9 +589,24 @@ img.expandDescription {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #CF759A !important;
 }
 
 .linkRegister:hover{
     text-decoration: none;
-    color: #222222;
+    color: #8CA9CA !important;
+}
+
+#prijaviSeNaHackathon{
+    color: #222222 !important;
+}
+
+.innerSignInLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #CF759A;
+}
+.innerSignInLink:hover{
+    text-decoration: none;
+    color: #8CA9CA;
 }
